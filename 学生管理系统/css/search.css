@@ -1,0 +1,60 @@
+.search-bar{
+    width: 682px;
+    height:42px;
+    line-height: 42px;
+    margin: 60px 0 0 76px;
+}
+.content{
+	background: none;
+}
+.search-bar .bar-content{
+    width: 599px;
+    height: 40px;
+    border:1px solid #333;
+    background: url("../images/sousuo.png") no-repeat 18px center;
+    background-color: #fff;
+}
+.search-bar .bar-content input{
+    height: 40px;
+    width: 540px;
+    outline: none;
+    border: none;
+    line-height: 40px;
+}
+.search-bar .search-font{
+    display: block;
+    width: 60px;
+    height: 42px;
+    background: #82b6d7;
+    font-size: 18px;
+    color: #fff;
+    line-height: 42px;
+    text-align: center;
+}
+.search-bar .word{
+    font-size: 18px;
+    color: #666;
+    height: 53px;
+    line-height: 53px;
+}
+.search-bar .list{
+    width: 100%;
+}
+.search-bar .list ul{
+    width: 100%;
+    height: 30px;
+
+}
+.search-bar .list ul li{
+    float: left;
+    width: 80px;
+    height: 100%;
+    background: #d8e3e9;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color:#666;
+    border-radius: 15px;
+    margin-right: 30px;
+
+}

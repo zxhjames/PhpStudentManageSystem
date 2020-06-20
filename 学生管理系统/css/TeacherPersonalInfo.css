@@ -1,0 +1,101 @@
+.flgure .info{
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+.flgure .info li {
+    float: left;
+    width: 150px;
+    height: 38px;
+    border: 1px solid #cccccc;
+    background: #fff;
+    color: #2f2f2f;
+    border-radius: 10px 10px 0 0;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: center;
+}
+.basic{
+    padding: 0 0 0 30px;
+    width:750px;
+    background: #fff;
+    height: 735px;
+    -webkit-border-radius:0  10px 10px 10px ;
+    -moz-border-radius: 0 10px 10px 10px;
+    border-radius: 0 10px 10px 10px;
+}
+.content {
+    position: relative;
+    top:40px;
+}
+.select p{
+    text-align: right;
+    padding-top: 25px;
+}
+.select  p span{
+    margin-right: 10px;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+}
+.flgure ul li.active {
+    background: #0f8383;
+    border: 1px solid #0f8383;
+    color: #fff;
+}
+.basic .select {
+    display: none;
+}
+.basic .select.active {
+    display: block;
+}
+.select .left, .select .right{
+    margin-top:25px;
+    width:50%;
+}
+.select label{
+    font-size: 17px;
+}
+.select input{
+    color:#686868;
+    border:1px solid #cccccc;
+    width:140px;
+    height:15px;
+    padding: 7px 0 6px 8px;
+    outline: none;
+}
+.select input.mailbox{
+    width:200px;
+}
+.select input.id{
+    width:200px;
+}
+.select div{
+    margin-bottom: 30px;
+    color: #666666;
+}
+.select  div.label{
+    color: #666666;
+    height:30px;
+    line-height: 30px;
+}
+.select div.label label{
+    display: inline-block;
+    height:30px;
+    line-height: 30px;
+}
+.list1{
+    color: #666;
+}
+.list1 input{
+    width: 140px;
+    outline: none;
+    border: 0;
+    border:1px solid #ccc;
+    height:15px;
+    padding: 7px 0 6px 8px;
+
+}
+.list1 label{
+    color: #666;
+}

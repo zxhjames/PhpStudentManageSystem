@@ -1,0 +1,43 @@
+.fail{
+	width:870px;
+	position: relative;
+	height:860px;
+	background: #eeeeee;
+}
+.submit{
+	width: 400px;
+	height: 270px;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+	top:270px;
+	left:234px;
+	text-align: center;
+	/*overflow: hidden;*/
+}
+.submit .submit-box{
+	position: relative;
+	left: 0;
+	top: 70px;
+}
+.submit .submit-pic{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background: #177ec1;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 90px;
+	display: inline-block;
+}
+.submit p{
+	text-align: center;
+	font-size: 18px;
+	color: #177ec1;
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	margin-left: 10px;
+}

@@ -1,0 +1,89 @@
+
+.bx{
+				width: 870px;
+				height: 890px;
+				background: #eeeeee;
+				position: relative;
+			}
+			.bx .box{
+				width: 780px;
+				height: 798px;
+				background: #fff;
+				border-radius: 10px;
+			}
+			.bx .box .top{
+				height: 75px;
+				width: 780px;
+				overflow: hidden;
+			}
+			.bx .box .top .left{
+				float: left;
+				width: 140px;
+				font-size: 16px;
+				color: #686868;
+				margin-left: 30px;
+				height: 75px;
+				line-height: 75px;
+				text-align: center;
+			}
+			.bx .box .top .right{
+				float: right;
+				width: 94px;
+				height: 15px;
+				margin-top: 50px;
+				margin-right: 20px;
+				font-size: 15px;
+				color: #686868;
+			}
+			.bx .box .content{
+				width: 780px;
+				height: 40px;
+				background: #e7f3f3;
+				margin-top: 10px;
+				line-height: 40px;
+				text-align: center;
+			}
+			.bx .box .content .left{
+				width: 102px;
+				height: 30px;
+				
+			}
+			.bx .box .content .left .column{
+				background: url(../images/column.png) no-repeat ;
+				display: inline-block;
+				width: 4px;
+				height: 30px;
+				margin-top: 5px;
+				float: left;
+			}
+			.bx .box .content .left .tit{
+				float: right;
+				font-size: 17px;
+				color: #353034;
+				display: inline-block;
+			}
+			.bx .box .bottom{
+				margin-top: 27px;
+				margin-left: 30px;
+			}
+			.bx .box .bottom .one{
+				overflow: hidden;
+				height: 40px;
+				width: 645px ;
+				margin-bottom: 33px;
+			}
+			.bx .box .bottom .one .left{
+				float: left;
+			}
+			.bx .box .bottom .one .right{
+				float: right;
+			}
+			.bx .box .bottom .one span{
+				font-size: 18px;
+				color: #666666;
+			}
+			.bx .box .bottom input{
+				width: 148px;
+				height: 28px;
+				border: 1px solid #ccc;
+			}

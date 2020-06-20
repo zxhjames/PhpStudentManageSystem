@@ -1,0 +1,202 @@
+.flgure .info{
+	position: absolute;
+	left: 0;
+	top: -40px;
+}
+.content {
+	position: relative;
+	top:40px;
+}
+.flgure .info li {
+	float: left;
+	width: 150px;
+	height: 38px;
+	border: 1px solid #cccccc;
+	background: #fff;
+	color: #2f2f2f;
+	border-radius: 10px 10px 0 0;
+	font-size: 15px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.flgure ul li.active {
+	background: #0f8383;
+	border: 1px solid #0f8383;
+	color: #fff;
+}
+
+.basic {
+	width: 780px;
+	height: 844px;
+	background: #fff;
+}
+
+.basic .basicInfo #leave-statistical {
+	padding-top: 20px;
+	width: 335px;
+	height: 265px;
+}
+
+.basic .basicInfo #gender-statistical {
+	width: 335px;
+	height: 265px;
+}
+
+.basic .basicInfo #province-statistical {
+	width: 335px;
+	height: 265px;
+}
+
+.basic .basicInfo dl{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.basic .basicInfo dl:hover{
+	background: #e7f2f9;
+}
+.basic .basicInfo dl.table-title{
+	float: left;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #5ca4d3;
+	margin-bottom: 20px;
+}
+.basic .basicInfo dl dt{
+	text-align: center;
+	padding: 0 55px;
+	float: left;
+	color: #fff;
+}
+.basic .basicInfo dl dd{
+	float: left;
+	padding: 0 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.basic .basicInfo ol{
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	margin-top: 530px;
+}
+.basic .basicInfo ol li{
+	width: 20px;
+	height: 20px;
+	float: left;
+	line-height: 20px;
+	text-align: center;
+	background: #fff;
+	color: #000;
+	margin: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.basic .basicInfo ol li.active{
+	background: #177ec1;
+	color: #fff;
+}
+.basic .payInfo dl{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.basic .payInfo dl:hover{
+	background: #e7f2f9;
+}
+.basic .payInfo dl.table-title{
+	float: left;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #5ca4d3;
+	margin-bottom: 20px;
+}
+.basic .payInfo dl dt{
+	text-align: center;
+	padding: 0 55px;
+	float: left;
+	color: #fff;
+}
+.basic .payInfo dl dd{
+	float: left;
+	padding: 0 40px;
+	height: 40px;
+	line-height: 40px;
+}
+.basic .payInfo ol{
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	margin-top: 530px;
+}
+.basic .payInfo ol li{
+	width: 20px;
+	height: 20px;
+	float: left;
+	line-height: 20px;
+	text-align: center;
+	background: #fff;
+	color: #000;
+	margin: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+.basic .payInfo ol li.active{
+	background: #177ec1;
+	color: #fff;
+}
+
+
+.basic .select {
+	display: none;
+}
+
+.basic .select.active {
+	display: block;
+}
+
+.basic .basicInfo .leave {
+	position: absolute;
+	left: 55%;
+	top: 175px;
+}
+
+.basic .basicInfo .gender {
+	position: absolute;
+	left: 55%;
+	top: 460px;
+}
+
+.basic .basicInfo .province {
+	position: absolute;
+	left: 55%;
+	top: 700px;
+}
+
+.basic .basicInfo .province li {
+	float: left;
+	margin-right: 30px;
+}
+.basic .payInfo #payInfo {
+	width: 578px;
+	height: 398px;
+	left: 50%;
+	margin-left: -289px;
+}
+
+.basic .payInfo #payInfo1 {
+	width: 578px;
+	height: 398px;
+	left: 50%;
+	margin-left: -289px;
+}

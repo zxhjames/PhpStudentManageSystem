@@ -1,0 +1,19 @@
+.search-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 234px;
+    height:140px;
+    margin-left: -117px;
+    margin-top: -70px;
+    text-align: center;
+}
+.search-content img{
+    width: 128px;
+    height:92px;
+}
+.search-content p{
+    font-size: 18px;
+    color: #177ec1;
+    margin-top: 22px;
+}
