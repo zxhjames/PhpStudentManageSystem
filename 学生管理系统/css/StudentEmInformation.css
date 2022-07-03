@@ -1,0 +1,88 @@
+
+.container .information-content{
+    font-size: 17px;
+    color: #666;
+}
+.container .content .information-title{
+    width: 100%;
+    font-size: 16px;
+    height: 75px;
+    line-height: 75px;
+    margin-left:30px;
+    position: relative;
+}
+.container .content .information-title .fac-information{
+    position: absolute;
+    left:636px ;
+    top:20px;
+}
+.container .content .unit-information{
+    width: 100%;
+}
+.container .content  .unit-information .unit{
+    background: #e6f2f2;
+    height:35px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 40px;
+    padding-top: 5px;
+
+}
+.container .content .unit-information .unit .unit-content{
+     height: 30px;
+     border-left:4px solid #0e8384;
+     color: #333;
+    line-height: 30px;
+     padding-left: 26px;
+}
+.container .content .unit-information .unit-list{
+    padding-left: 30px;
+    color: #666;
+}
+.container .content .unit-information  .unit-list .ml{
+    margin-left: 46px;
+}
+.container .content .unit-information .unit-list .list{
+    margin-bottom: 30px;
+}
+.container .content .unit-information  .unit-list .list input{
+    outline: none;
+    height: 28px;
+    width: 200px;
+    border:1px solid #ccc;
+}
+.container .content .unit-information  .unit-list .list1 input{
+    width: 140px;
+}
+.information-title .bottom{
+    margin-top: 20px;
+    width:130px;
+    padding-bottom: 94px;
+    padding-right: 20px;
+}
+.information-title .bottom a{
+    color:#646464;
+    font-size: 15px;
+}
+.information-title .bottom .l{
+     margin-right: 30px;
+
+}
+.mr{
+    margin-left: 87px;
+}
+.mr1{
+    margin-left: -25px;
+}
+.save{
+    margin-left: 30px ;
+    /*color: #e6f2f2;*/
+    /*font-size: 14px;*/
+}
+input{
+    color: #666;
+    padding-left: 8px;
+}
+
+
+

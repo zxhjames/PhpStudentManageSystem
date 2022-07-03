@@ -1,0 +1,111 @@
+.header{
+    padding:30px 20px 10px 30px;
+    color:#646464;
+    font-size: 15px;
+}
+.header a{
+    color:#646464;
+    margin-left: 30px;
+}
+.header .top{
+    width:100%;
+    margin-bottom: 5px;
+}
+.header .bottom {
+    width: 130px;
+}
+.main{
+    color:#686868;
+    padding-bottom: 94px;
+}
+.main .title{
+    padding:5px 0 5px 30px;
+    height:30px;
+    background: url("../images/border.png") no-repeat 0 5px;
+    background-color: #e7f3f3;
+    color:#333436;
+    font-size:18px;
+    line-height: 30px;
+    /*margin-bottom: 30px;*/
+}
+.main .content{
+    padding: 0 0 0 30px;
+    width:750px;
+}
+.main .content .left,.main .content .right{
+    width:50%;
+}
+.main a{
+    display:inline-block;
+    width:108px;
+    height:17px;
+    background: #eeeeee;
+    color:#646464;
+    padding:4px 0 4px 7px;
+    font-size: 17px;
+    line-height: 17px;
+}
+.main i{
+    display:inline-block;
+    width:25px;
+    height:23px;
+    background: url("../images/option.jpg") no-repeat 8px 8px;
+}
+.main label{
+    font-size: 17px;
+}
+.main input{
+    color:#686868;
+    border:1px solid #cccccc;
+    width:140px;
+    height:15px;
+    padding: 7px 0 6px 10px;
+    outline: none;
+}
+.main .content div{
+    margin-bottom: 30px;
+}
+.main .content div.label{
+    height:30px;
+    line-height: 30px;
+}
+.main .content div.label label{
+    display: inline-block;
+    height:30px;
+    line-height: 30px;
+}
+.main .content div.none{
+    opacity: 0;
+}
+.main .content div.address{
+    margin-top: -30px;
+}
+.main .content div.address input{
+    width:410px;
+}
+.main .content div .option{
+    position: relative;
+    display:inline-block;
+    margin-bottom: -8px;
+    width:144px;
+    height:24px;
+    border:1px solid #cccccc;
+    padding: 2px;
+}
+.main .content div .option ul{
+    display:none;
+    position: absolute;
+    top:29px;
+    left:-1px;
+    width:150px;
+    background: #d7e3e3;
+    font-size: 17px;
+    color:#333333;
+    z-index: 999;
+}
+.main .content div .option ul li{
+    padding: 0 0 0 10px;
+}
+.main .content div .option ul li:hover{
+    background: #0e8384;
+}

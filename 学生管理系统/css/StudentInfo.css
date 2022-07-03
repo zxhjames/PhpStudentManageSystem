@@ -1,0 +1,103 @@
+.flgure .info{
+	position: absolute;
+	left: 0;
+	top: -40px;
+}
+.content {
+	position: relative;
+	top:40px;
+}
+.flgure .info li {
+	float: left;
+	width: 150px;
+	height: 38px;
+	border: 1px solid #cccccc;
+	background: #fff;
+	color: #2f2f2f;
+	border-radius: 10px 10px 0 0;
+	font-size: 15px;
+	line-height: 38px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.flgure ul li.active {
+	background: #0f8383;
+	border: 1px solid #0f8383;
+	color: #fff;
+}
+
+.basic {
+	width: 780px;
+	height: 884px;
+	background: #fff;
+}
+
+.basic .basicInfo {
+	margin-left: 40px;
+	padding-top: 120px;
+}
+.basic .basicInfo table{
+	width: 520px;
+	height: 121px;
+	border: 1px solid #bac4cb;
+	background: #e7f2f9;
+	margin: 9px auto;
+}
+table,table tr th,table tr td{
+	border: 1px solid #bac4cb;
+	color: #5e686f;
+}
+.basic .basicInfo table th{
+	height: 40px;
+	font-weight: normal;
+}
+.basic .basicInfo .thead{
+	width: 520px;
+	height: 76px;
+	margin: 0 auto;
+}
+.basic .basicInfo .thead span{
+	display: block;
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	font-size: 18px;
+	color: #5ca4d3;
+}
+.basic .basicInfo div p{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background: #5ca4d3;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.basic .basicInfo table tr td{
+	text-align: center;
+}
+
+.basic .basicInfo #leave-statistical {
+	padding-top: 20px;
+	width: 335px;
+	height: 265px;
+}
+
+.basic .basicInfo #gender-statistical {
+	width: 335px;
+	height: 265px;
+}
+
+.basic .basicInfo #province-statistical {
+	width: 335px;
+	height: 265px;
+}
+
+.basic .select {
+	display: none;
+}
+
+.basic .select.active {
+	display: block;
+}

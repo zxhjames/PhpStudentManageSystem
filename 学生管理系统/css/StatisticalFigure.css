@@ -1,0 +1,134 @@
+.flgure .info{
+	position: absolute;
+	left: 0;
+	top: -40px;
+}
+.content {
+	position: relative;
+	top:40px;
+}
+.flgure .info li {
+	float: left;
+	width: 150px;
+	height: 38px;
+	border: 1px solid #cccccc;
+	background: #fff;
+	color: #2f2f2f;
+	border-radius: 10px 10px 0 0;
+	font-size: 15px;
+	line-height: 38px;
+	text-align: center;
+}
+
+.flgure ul li.active {
+	background: #0f8383;
+	border: 1px solid #0f8383;
+	color: #fff;
+}
+
+.basic {
+	width: 780px;
+	height: 884px;
+	background: #fff;
+}
+
+.basic .basicInfo {
+	margin-left: 40px;
+}
+
+.basic .basicInfo #leave-statistical {
+	padding-top: 20px;
+	width: 335px;
+	height: 265px;
+}
+
+.basic .basicInfo #gender-statistical {
+	width: 335px;
+	height: 265px;
+}
+
+.basic .basicInfo #province-statistical {
+	width: 335px;
+	height: 265px;
+}
+
+.basic .select {
+	display: none;
+}
+
+.basic .select.active {
+	display: block;
+}
+
+.basic .basicInfo ul {
+	height: 105px;
+	width: 266px;
+}
+
+.basic .basicInfo ul li {
+	margin: 10px 0;
+	font-size: 16px;
+	color: #676767;
+}
+
+.basic .basicInfo .leave {
+	position: absolute;
+	left: 55%;
+	top: 105px;
+}
+
+.basic .basicInfo .gender {
+	position: absolute;
+	left: 55%;
+	top: 380px;
+}
+
+.basic .basicInfo .province {
+	position: absolute;
+	left: 55%;
+	top: 630px;
+}
+
+.basic .basicInfo .province li {
+	float: left;
+	margin-right: 30px;
+}
+
+.basic .payInfo {
+	padding-top: 20px;
+}
+
+.basic .payInfo #payInfo {
+	width: 578px;
+	height: 398px;
+	left: 50%;
+	margin-left: -289px;
+}
+
+.basic .payInfo #payInfo1 {
+	width: 578px;
+	height: 398px;
+	left: 50%;
+	margin-left: -289px;
+}
+
+#employment_industry,
+#unit_properties,
+#postgraduate_employment {
+	padding-top: 20px;
+	width: 700px;
+	height: 265px;
+}
+
+.provinceInfo span {
+	position: absolute;
+	top: 80%;
+	left: 500px;
+	color: rgb(30, 129, 193);
+	font-size: 15px;
+}
+
+#map {
+	width: 780px;
+	height: 800px;
+}

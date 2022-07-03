@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="login">
+			<div class="content clearfix">
+				<div class="content-left">
+					<div class="logo">
+						<img src="images/xu.jpeg" alt=""/>
+						<p>江西农业大学学生管理系统</p>
+					</div>
+				</div>
+				<div class="shu"></div>
+				<div class="content-right">
+				<form action="controller/login.php" method="post">
+					<div class="login-form">
+						<h2><a href="">用户登录/LOGIN</a></h2>
+						<!-- <div class="identifire">
+							<span>身　份：</span>
+							<select>
+								<option value="学生" selected="selected">学生</option>
+								<option value="教师教辅人员">教师教辅人员</option>
+							</select>
+						</div> -->
+						<div class="account clearfix">
+							<span>账　号：</span>
+							<input type="text" value="" id="id" name="id" placeholder="默认1998" />
+						</div>
+						<div class="password clearfix">
+							<span>密　码：</span>
+							<input type="text" value="" id="pwd" name="pwd" placeholder="默认123" />
+						</div>
+					
+						<div class="btn">
+							<!-- <span id="login"><a>登录</a></span> -->
+							<input type="submit" name="" value="登录">
+							<!-- <span class="forget"><a href="password.html">忘记密码</a></span> -->
+						</div>
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#login').on('click','a',function(){
+					var aVal = $('.identifire select');
+					if (aVal.val() == '学生') {
+						$(this).attr('href','StudentIndex.html');
+					} else if (aVal.val() == '教师教辅人员'){
+						$(this).attr('href','TeacherIndex.html');
+					}
+				});
+			});
+			
+			
+		</script>
+		<!--<script type="text/javascript">
+			$(document).ready(function(){
+				if (window.PIE) {
+			        $('.rounded').each(function() {
+			            PIE.attach(this);
+			        });
+			    }
+			});
+		</script>-->
+	</body>
+</html>

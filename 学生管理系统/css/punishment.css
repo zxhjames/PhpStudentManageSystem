@@ -1,0 +1,106 @@
+.header{
+    padding:30px 20px 10px 30px;
+    color:#646464;
+    font-size: 15px;
+}
+.header a{
+    color:#646464;
+    margin-left: 30px;
+}
+.header .top{
+    width:100%;
+    margin-bottom: 5px;
+}
+.header .bottom{
+    width:130px;
+}
+.main{
+    color:#686868;
+    padding-bottom: 94px;
+}
+.main .title{
+    padding:5px 0 5px 30px;
+    height:30px;
+    background: url("../images/border.png") no-repeat 0 5px;
+    background-color: #e7f3f3;
+    color:#333436;
+    font-size:18px;
+    line-height: 30px;
+    /*margin-bottom: 30px;*/
+}
+.main .content{
+    padding: 0 0 0 30px;
+    width:750px;
+}
+.main .content .left,.main .content .right{
+    width:50%;
+}
+.main label{
+    font-size: 17px;
+}
+.main input{
+    color:#686868;
+    border:1px solid #cccccc;
+    width:140px;
+    height:15px;
+    padding: 7px 0 6px 8px;
+    outline: none;
+}
+.main input.mailbox{
+    width:200px;
+}
+.main input.id{
+    width:200px;
+}
+.main .content div{
+    margin-bottom: 30px;
+}
+.main .content div.reason{
+    margin-top: -30px;
+    margin-bottom: 180px;
+    width:100%;
+}
+.main .content div.reason p{
+    height:30px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.main .content div.reason div{
+    position: relative;
+    left:90px;
+    top:-30px;
+    width:535px;
+    height:185px;
+}
+.main .content div.reason div textarea{
+    width:100%;
+    height:100%;
+    outline: none;
+    border:1px solid #cccccc;
+    resize: none;
+}
+.main .content div.statistics{
+    margin-top: -30px;
+    margin-bottom: 180px;
+    width:100%;
+}
+.main .content div.statistics p{
+    height:30px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.main .content div.statistics div{
+    position: relative;
+    left:90px;
+    top:-30px;
+    width:535px;
+    height:185px;
+}
+.main .content div.statistics div textarea{
+    width:100%;
+    height:100%;
+    outline: none;
+    border:1px solid #cccccc;
+    resize: none;
+}
+
